@@ -2,6 +2,10 @@
 @tailwind components;
 @tailwind utilities;
 
+.break-words {
+  word-break: break-word;
+}
+
 .wave {
   animation-name: wave-animation; /* Refers to the name of your @keyframes element below */
   animation-duration: 2.1s; /* Change to speed up or slow down */
