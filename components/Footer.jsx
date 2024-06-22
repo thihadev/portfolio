@@ -1,4 +1,5 @@
 import Socials from './Socials'
+import { ImQuotesLeft, ImQuotesRight } from "react-icons/im";
 
 export default function Footer() {
     return (
@@ -10,8 +11,10 @@ export default function Footer() {
                         iconsStyles='text-primary dark:text-white/70 text-[20px] hover:text-white dark:hover:text-primary transition-all'
                     /> */}
 
-                    <div className="text-muted-foreground">
-                        "it's not a bug, it's an undocumented feature" 
+                    <div class="flex items-center text-muted-foreground">
+                        <ImQuotesLeft class="inline-block mr-2" />
+                        <span>it's not a bug, it's an undocumented feature</span>
+                        <ImQuotesRight class="inline-block ml-2" />
                     </div>
                 </div>
             </div>
