@@ -16,6 +16,7 @@ export const metadata = {
 export default function RootLayout({ children }) {
   return (
     <html lang="en" suppressHydrationWarning>
+      <link rel='icon' href='/icon.ico' />
       <body className={outfit.className}>
         <ThemeProvider attribute="class" defaultTheme='light'>
           <Header />
