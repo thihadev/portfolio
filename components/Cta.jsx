@@ -16,7 +16,7 @@ export default function Cta() {
                         I'm here to help.
                     </h2>
                     <div onClick={handleEmailClick} className="iconContainer">
-                        <LuMail size={50} className="icon dark:text-white" />
+                        <LuMail size={50} className="icon wave dark:text-white" />
                     </div>
                 </div>
             </div>

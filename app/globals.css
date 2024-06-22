@@ -143,8 +143,11 @@
   color: rgb(255, 255, 255) !important;
 }
 
-.dark .slick-prev:before, .slick-next:before {
+.dark .slick-prev:before {
   color:rgb(255, 255, 255) !important;
+}
+.dark .slick-next:before {
+  color :white !important;
 }
 
 .color-circle {
