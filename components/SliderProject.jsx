@@ -1,9 +1,6 @@
 'use client'
 import React from 'react';
 import { motion, useAnimation } from 'framer-motion';
-import { useEffect } from 'react';
-import exp from 'constants';
-// import './IconSlider.css'; // Import your CSS for stylin
 
 const slides = [
     { image: '/projects/abccop.png' },

@@ -38,7 +38,7 @@ const qualificationData = [
             {
                 university: "Myitkyina University",
                 qualification: "Bachelor of Arts (English)",
-                years: "2011 - 2013"
+                years: "2011 - 2014"
             },
             {
                 university: "European International University",
@@ -51,9 +51,9 @@ const qualificationData = [
         title: "experience",
         data: [
             {
-                company: "Clover Bakery",
-                role: "Bakery Owner",
-                years: "2015 - 2017"
+                company: "Blazon Group",
+                role: "Excuetive Backend Developer",
+                years: "2023 - Present"
             },
             {
                 company: "COMQUAS",
@@ -66,43 +66,9 @@ const qualificationData = [
                 years: "2020 - Present"
             },
             {
-                company: "Blazon Group",
-                role: "Excuetive Backend Developer",
-                years: "2023 - Present"
-            },
-        ]
-    }
-]
-
-const skillData = [
-    {
-        title: "skills",
-        data: [
-            {
-                name: 'HTML, CSS',
-            },
-            {
-                name: 'Back-end Development',
-            },
-            {
-                name: 'Front-end Development',
-            },
-        ]
-    },
-    {
-        title: "tools",
-        data: [
-            {
-                imgPath: '/about/vscode.svg',
-            },
-            {
-                imgPath: '/about/vscode.svg',
-            },
-            {
-                imgPath: '/about/vscode.svg',
-            },
-            {
-                imgPath: '/about/vscode.svg',
+                company: "Clover Bakery",
+                role: "Self-employed",
+                years: "2015 - 2017"
             },
         ]
     }

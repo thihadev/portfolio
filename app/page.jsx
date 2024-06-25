@@ -1,3 +1,4 @@
+'use client'
 import About from "@/components/About";
 import Service from "@/components/Service";
 import Project from "@/components/Project";

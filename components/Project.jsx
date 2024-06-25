@@ -5,7 +5,13 @@ import React, { useEffect, useState } from 'react';
 import Slider from 'react-slick';
 import ProjectSlider from './ProjectSlider'
 import Cta from '@/components/Cta'
+import { css } from "@emotion/react";
+import { ScaleLoader } from "react-spinners";
 
+const override = css`
+  display: block;
+  margin: 0 auto;
+`;
 const items = [
     {
       "id" : 1,
@@ -113,7 +119,7 @@ const items = [
       "title": "Shwe Note",
       "image": "/projects/shwenote.png",
       "message": "30 min book summary, Ebook & Audio",
-      "description" : "Support & maintainace APIs. Added new features to the existing system.",
+      "description" : "Supported & maintained APIs. Added new features to the existing system.",
       "languages" : [
         "Laravel",
         "Digital Ocean",
@@ -195,22 +201,53 @@ const settings = {
 };
 
 export default function Project () {
+
+  const [loading, setLoading] = useState(true);
+
+    useEffect(() => {
+      // Simulate an API call or data fetching
+      const fetchData = async () => {
+        try {
+          // Simulate a delay
+          await new Promise(resolve => setTimeout(resolve, 1000)); // 2 seconds delay
+          setLoading(false);
+        } catch (error) {
+          setLoading(false);
+        }
+      };
+  
+      fetchData();
+    }, []);
+
+
     return (
         <section className='py-9'>
         {/* <section id='projects' className='xl:py-36'> */}
             <div className='container max-w-6xl mx-auto'>
                 <h2 className='section-title mb-12 text-center mx-auto'>Projects</h2>
                 
-                <div className="carousel">
-                    <Slider {...settings}>
-                        {items.map((workItem) => (
-                            <ProjectSlider key={workItem.id} item={workItem} />
-                        ))}
-                    </Slider>
-                </div>
+                  <div className="carousel">
+                  {
+                    loading ? 
+                    <div className='items-center flex justify-center'>
+                      <ScaleLoader 
+                          color={"#5fa5f8"}
+                          size={50} 
+                          css={override}
+                          aria-label="Circle Loader"
+                          data-testid="loader"
+                        />
+                      </div> :
+                      <Slider {...settings}>
+                          {items.map((workItem) => (
+                              <ProjectSlider key={workItem.id} item={workItem} />
+                          ))}
+                      </Slider>
+                  }
+                  </div>
             </div>
 
-            <div className='mt-20'>
+            <div className=' mt-20'>
                 <Cta/>
             </div>
         </section>

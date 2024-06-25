@@ -18,7 +18,7 @@ export default function RootLayout({ children }) {
     <html lang="en" suppressHydrationWarning>
       <link rel='icon' href='/icon.ico' />
       <body className={outfit.className}>
-        <ThemeProvider attribute="class" defaultTheme='light'>
+        <ThemeProvider attribute="class" defaultTheme='dark'>
           <Header />
             {children}
           <Footer/>

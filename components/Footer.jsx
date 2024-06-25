@@ -11,10 +11,10 @@ export default function Footer() {
                         iconsStyles='text-primary dark:text-white/70 text-[20px] hover:text-white dark:hover:text-primary transition-all'
                     /> */}
 
-                    <div class="flex items-center text-muted-foreground">
-                        <ImQuotesLeft class="inline-block mr-2" />
+                    <div className="flex items-center text-muted-foreground mb-2">
+                        <ImQuotesLeft className="inline-block mr-2" />
                         <span>it's not a bug, it's an undocumented feature</span>
-                        <ImQuotesRight class="inline-block ml-2" />
+                        <ImQuotesRight className="inline-block ml-2" />
                     </div>
                 </div>
             </div>
