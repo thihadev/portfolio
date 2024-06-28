@@ -221,7 +221,7 @@ export default function Project () {
 
 
     return (
-        <section className='py-9'>
+        <section className='py-9 min-h-[82vh]'>
         {/* <section id='projects' className='xl:py-36'> */}
             <div className='container max-w-6xl mx-auto'>
                 <h2 className='section-title mb-12 text-center mx-auto'>Projects</h2>

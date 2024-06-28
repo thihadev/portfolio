@@ -10,7 +10,7 @@ import Skills from './Skills';
 export default function Hero() {
     return (
         <>
-            <section className="py-12 xl:py-24 h-[84vh] xl:pt-28">
+            <section className="py-12 xl:py-24 h-[82vh] xl:pt-28">
                 <div className="container mx-auto">
                     <div className="flex justify-center">
                         <div className="flex max-w-[600px] flex-col justify-center mx-auto xl:mx-0 text-center">

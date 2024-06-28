@@ -80,13 +80,13 @@ export default function About() {
     }
 
     return (
-        <section className='py-9'>
+        <section className='py-9 min-h-[82vh]'>
         {/* <section className='py-9 xl:h-[860px] pb-12 xl:py-24'> */}
             <div className="container mx-auto">
                 <h2 className="section-title mb-8 xl:mb-16 text-center mx-auto">About me</h2>
                 <div className='flex flex-col xl:flex-row'>
-                    <div className='hidden xl:flex flex-1 relative'>
-                    <div className='rounded-full dark:bg-zinc-400 bg-secondary w-[505px] h-[505px] overflow-hidden'>
+                    <div className='hidden xl:flex flex-1 relative pl-10'>
+                    <div className='rounded-full dark:bg-zinc-400 bg-secondary w-[400px] h-[400px] overflow-hidden'>
                             <img 
                                 src='/about/profile3.png' 
                                 alt='Profile' 
