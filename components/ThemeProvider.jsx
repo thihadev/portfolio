@@ -4,15 +4,14 @@ import { ThemeProvider as NextThemesProvider } from 'next-themes'
 import React, { useState, useEffect } from 'react';
 import Preloader from '@/components/Preloader';
 import { motion } from 'framer-motion';
+import { useTheme } from 'next-themes'
 
 export default function ThemeProvider({ children, ...props}){
     const [loading, setLoading] = useState(true);
 
     useEffect(() => {
-      // Simulate an API call or data fetching
       const fetchData = async () => {
         try {
-          // Simulate a delay
           await new Promise(resolve => setTimeout(resolve, 2000)); // 2 seconds delay
           setLoading(false);
         } catch (error) {

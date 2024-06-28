@@ -6,7 +6,7 @@ import {
 export default function ProjectSlider ({ item, className }) {
   return (
     <>
-    <Card className={`m-1 lg:h-[340px] md:h-[380px] sm:h-[400px] h-auto rounded-lg`}>
+    <Card className={`m-1 lg:h-[340px] md:h-[380px] sm:h-[400px] h-auto rounded-lg dark:shadow-[0px_0px_2px_0px_#5d5d5d] shadow-[0px_0px_2px_0px_#e2e8f0]`}>
       <div className="block rounded-lg text-center">
         <div className="relative overflow-hidden">
           <div className="mt-8 inset-0 flex items-center justify-center">

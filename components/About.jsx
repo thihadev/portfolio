@@ -86,10 +86,13 @@ export default function About() {
                 <h2 className="section-title mb-8 xl:mb-16 text-center mx-auto">About me</h2>
                 <div className='flex flex-col xl:flex-row'>
                     <div className='hidden xl:flex flex-1 relative'>
-                        <DevImg 
-                            imgSrc='/about/developer.png'
-                            containerStyles='bg-about_shape_light dark:bg-about_shape_dark w-[505px] h-[505px] bg-no-repeat relative'
-                        />
+                    <div className='rounded-full dark:bg-zinc-400 bg-secondary w-[505px] h-[505px] overflow-hidden'>
+                            <img 
+                                src='/about/profile3.png' 
+                                alt='Profile' 
+                                className='w-full h-full object-cover'
+                            />
+                        </div>
                     </div>
 
                     <div className='flex-1'>

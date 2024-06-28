@@ -20,7 +20,7 @@ const Preloader = ({ loading }) => {
 
   // Render the preloader conditionally based on the loading state
   return (
-    <div className="preloader" style={{ backgroundColor: 'black'}}>
+    <div className="preloader" style={{ backgroundColor: '#202020'}}>
       {visible && (
         <CircleLoader 
           color={"#5fa5f8"} 
