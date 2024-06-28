@@ -14,11 +14,10 @@ const Preloader = ({ loading }) => {
     if (!loading) {
       setTimeout(() => {
         setVisible(false);
-      }, 1000); // Adjust the timeout duration as needed
+      }, 1000);
     }
   }, [loading]);
 
-  // Render the preloader conditionally based on the loading state
   return (
     <div className="preloader" style={{ backgroundColor: '#202020'}}>
       {visible && (

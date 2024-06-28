@@ -30,9 +30,9 @@ export default function ThemeProvider({ children, ...props}){
         <>
         {!loading && (
             <motion.div
-            initial={{ opacity: 0, y: 20 }} // Initial animation properties
-            animate={{ opacity: 1, y: 0 }} // Animation properties when component is mounted
-            transition={{ duration: 1 }} // Duration of the animation
+            initial={{ opacity: 0, y: 20 }}
+            animate={{ opacity: 1, y: 0 }}
+            transition={{ duration: 1 }}
             >
                 <NextThemesProvider {...props}>
                     {children}

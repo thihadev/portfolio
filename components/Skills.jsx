@@ -13,7 +13,6 @@ const skills = [
   { name: 'TypeScript', icon: <SiTypescript /> },
 //   { name: 'GraphQL', icon: <SiGraphql /> },
   { name: 'Tailwind CSS', icon: <SiTailwindcss /> },
-  // Add more skills as needed
 ];
 
 const Skills = () => {
