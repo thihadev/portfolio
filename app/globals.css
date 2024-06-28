@@ -136,7 +136,7 @@
 
 /* Change the background and border of the dots */
 .dark .slick-dots li button::before {
-  background-color: rgb(45, 45, 45); /* Default background color */
+  background-color: #797979; /* Default background color */
   border-radius: 50%; /* Make the dots circular */
   margin: 0 5px; /* Adjust the spacing between dots as needed */
   font-size: 0 !important;
