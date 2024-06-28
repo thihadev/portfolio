@@ -9,8 +9,8 @@ import ThemeProvider from "@/components/ThemeProvider";
 const outfit = Outfit({ subsets: ["latin"] });
 
 export const metadata = {
-  title: "Thiha's Portfolio",
-  description: "Developed By T",
+  title: "Thiha soe's Portfolio",
+  description: "Developed By Thiha soe",
 };
 
 export default function RootLayout({ children }) {
