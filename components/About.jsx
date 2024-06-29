@@ -36,14 +36,14 @@ const qualificationData = [
         title: "education",
         data: [
             {
-                university: "Myitkyina University",
-                qualification: "Bachelor of Arts (English)",
-                years: "2011 - 2014"
+                university: "European International University - Paris",
+                qualification: "BSc IT (Web Programming)",
+                years: "2019 - 2022"
             },
             {
-                university: "European International University",
-                qualification: "Bachelor of Science IT (Web Programming)",
-                years: "2019 - 2022"
+                university: "Myitkyina University",
+                qualification: "BA (English)",
+                years: "2011 - 2014"
             },
         ]
     },
@@ -56,14 +56,14 @@ const qualificationData = [
                 years: "2023 - Present"
             },
             {
-                company: "COMQUAS",
-                role: "Backend Developer",
-                years: "2018 - 2023"
-            },
-            {
                 company: "Freelancer",
                 role: "Backend Developer",
                 years: "2020 - Present"
+            },
+            {
+                company: "COMQUAS",
+                role: "Backend Developer",
+                years: "2018 - 2023"
             },
             {
                 company: "Clover Bakery",
@@ -113,11 +113,11 @@ export default function About() {
                                 {/* {Personal} */}
                                 <TabsContent value="personal">
                                     <div className='text-center xl:text-left'>
-                                        <h3 className='h3 mb-4'>Unmatched Service Quality for Over 5 Years</h3>
+                                        {/* <h3 className='h3 mb-4'>Unmatched Service Quality for Over 5 Years</h3> */}
                                         <p className='subtitle max-w-xl mx-auto xl:mx-0'>
-                                            I specialize in crafting intuitive websites with cutting-edge technolody,
-                                            delivering dynamic and engaging user experiences. 
-                                            Proven ability in optimizing web functionalities that improve data retrieval and workflow efficiencies.
+                                        A dedicated backend developer who thrives in collaborative environments. 
+                                        I work closely with front-end developers, designers, and other stakeholders to deliver high-quality solutions.
+                                        Proficient in custom CMS solutions, third-party API integrations, and optimizing systems for scalability and performance.
                                         </p>
 
                                         {/* <div className='grid xl:grid-cols-2 gap-4 mb-12'>
