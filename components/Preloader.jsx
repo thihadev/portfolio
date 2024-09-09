@@ -19,7 +19,7 @@ const Preloader = ({ loading }) => {
   }, [loading]);
 
   return (
-    <div className="preloader" style={{ backgroundColor: '#202020'}}>
+    <div className="preloader" style={{ backgroundColor: '#171923'}}>
       {visible && (
         <CircleLoader 
           color={"#5fa5f8"} 

@@ -65,11 +65,11 @@ const qualificationData = [
                 role: "Backend Developer",
                 years: "2018 - 2023"
             },
-            {
-                company: "Clover Bakery",
-                role: "Self-employed",
-                years: "2015 - 2017"
-            },
+            // {
+            //     company: "Clover Bakery",
+            //     role: "Self-employed",
+            //     years: "2015 - 2017"
+            // },
         ]
     }
 ]
