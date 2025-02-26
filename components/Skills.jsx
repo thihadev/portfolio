@@ -8,7 +8,7 @@ const skills = [
   { name: 'JavaScript',  icon: <SiJavascript /> },
   { name: 'React', icon: <SiReact /> },
   { name: 'Next.js', icon: <SiNextdotjs /> },
-  { name: 'Node.js', icon: <SiNodedotjs /> },
+  // { name: 'Node.js', icon: <SiNodedotjs /> },
   { name: 'HTML & CSS', icon: <SiHtml5 /> },
   { name: 'TypeScript', icon: <SiTypescript /> },
 //   { name: 'GraphQL', icon: <SiGraphql /> },

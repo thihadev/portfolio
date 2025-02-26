@@ -51,14 +51,14 @@ const qualificationData = [
         title: "experience",
         data: [
             {
-                company: "Blazon Group",
-                role: "Excuetive Backend Developer",
-                years: "2023 - Present"
-            },
-            {
                 company: "Freelancer",
                 role: "Backend Developer",
                 years: "2020 - Present"
+            },
+            {
+                company: "Blazon Group",
+                role: "Excuetive Backend Developer",
+                years: "2023 - 2024"
             },
             {
                 company: "COMQUAS",
