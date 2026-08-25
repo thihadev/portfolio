@@ -29,7 +29,7 @@ export default function Hero() {
                             </h5>
 
                             <p className="subtitle max-w-full mx-auto xl:mx-0">
-                                A passionate developer with 5+ years of experience in backend development using PHP and Laravel framework.
+                                A passionate developer with 7+ years of experience in backend development using PHP and Laravel framework.
                                 Proficient in developing databases, user interfaces, testing, and debugging.
                             </p>
 

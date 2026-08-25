@@ -4,7 +4,7 @@ import { LuMail } from 'react-icons/lu';
 
 export default function Cta() {
     const handleEmailClick = () => {
-        window.location.href = 'mailto:thihasoe.soelay@gmail.com'; // Replace with your email address
+        window.location.href = 'mailto:thihasoe.dev@gmail.com'; // Replace with your email address
       };
 
     return (

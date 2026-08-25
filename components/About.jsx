@@ -19,7 +19,7 @@ const infoData = [
     },
     {
         icon: <MailIcon size={20} />,
-        text : "thihasoe.soelay@gmail.com",
+        text : "thihasoe.dev@gmail.com",
     },
     {
         icon: <GraduationCap size={20} />,
@@ -50,6 +50,11 @@ const qualificationData = [
     {
         title: "experience",
         data: [
+            {
+                company: "Senior Developer",
+                role: "Backend Developer",
+                years: "2025 - Present"
+            },
             {
                 company: "Freelancer",
                 role: "Backend Developer",
