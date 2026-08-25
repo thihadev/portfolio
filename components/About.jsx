@@ -2,8 +2,6 @@ import { Tabs, TabsList, TabsTrigger, TabsContent} from '@/components/ui/tabs'
 import { 
     User2, 
     MailIcon, 
-    HomeIcon, 
-    PhoneCall, 
     GraduationCap, 
     Calendar,
     Briefcase, 
