@@ -6,8 +6,6 @@ import {
     Calendar,
     Briefcase, 
 } from 'lucide-react';
-import DevImg from './DevImg';
-import Image from 'next'
 import Skills from './Skills';
 
 const infoData = [
