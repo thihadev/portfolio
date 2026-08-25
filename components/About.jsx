@@ -165,7 +165,7 @@ export default function About() {
                                                                 <div className='font-semibold text-xl leading-none mb-2'>
                                                                     {company}
                                                                 </div>
-                                                                <div className='text-lg leading-none text-muted-foreground mb-4'>
+                                                                <div className='text-md leading-none text-muted-foreground mb-4'>
                                                                     {role}
                                                                 </div>
                                                                 <di className="text-base font-medium">
@@ -202,7 +202,7 @@ export default function About() {
                                                                 <div className='font-semibold text-xl leading-none mb-2'>
                                                                     {university}
                                                                 </div>
-                                                                <div className='text-lg leading-none text-muted-foreground mb-4'>
+                                                                <div className='text-md leading-none text-muted-foreground mb-4'>
                                                                     {qualification}
                                                                 </div>
                                                                 <di className="text-base font-medium">
