@@ -53,7 +53,7 @@ const qualificationData = [
             {
                 company: "Senior Developer",
                 role: "Backend Developer",
-                years: "2025 - Present"
+                years: "2025 - Present "
             },
             {
                 company: "Freelancer",
